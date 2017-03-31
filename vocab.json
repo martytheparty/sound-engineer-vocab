@@ -1,13 +1,22 @@
 {
   "description": "Sound Engineering",
-  "terms": [
+  "questions": [
     {
-      "name": "What Is Sound?",
-      "definition": "How we sense changes in Atmospheric Pressure."
+      "question": "What Is Sound?",
+      "answer": "How we sense changes in Atmospheric Pressure."
     },
     {
-      "name": "What do we hear when we hear a sting vibrate?",
-      "definition": "The air molecules moving around - back and forth."
+      "question": "What do we hear when we hear a sting vibrate?",
+      "answer": "The air molecules moving around - back and forth."
+    },
+    {
+      "question": "What is Compression?",
+      "answer": "A peak of high pressure.  When the string of a musical instrument pushes air molecules to create sound. "
+    },
+    {
+      "question": "What is Rarefaction?",
+      "answer": "A trough of low pressure.  When the string of a musical instrument pulls air molecules to create sound. "
     }
+
   ]
 }
