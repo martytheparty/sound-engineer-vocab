@@ -32,7 +32,10 @@
     {
       "question": "What is Amplitude?",
       "answer": "The strength of the wave. "
+    },
+    {
+      "question": "What Is RMS?",
+      "answer": "Root Mean Square - helps determine the average amplitude of a single. "
     }
-
   ]
 }
