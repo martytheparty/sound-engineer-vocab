@@ -36,6 +36,10 @@
     {
       "question": "What Is RMS?",
       "answer": "Root Mean Square - helps determine the average amplitude of a single. "
+    },
+    {
+      "question": "What Is Frequency?",
+      "answer": "How many cycles of peaks and troughs in a second. "
     }
   ]
 }
