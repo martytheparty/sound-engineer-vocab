@@ -40,6 +40,10 @@
     {
       "question": "What Is Frequency?",
       "answer": "How many cycles of peaks and troughs in a second. "
+    },
+    {
+      "question": "How (unit of measure) is frequency measured?",
+      "answer": "RMS "
     }
   ]
 }
