@@ -56,6 +56,10 @@
     {
       "question": "What does phase mean? ",
       "answer": "Audio waveforms are cyclical; that is, they proceed through regular cycles or repetitions. Phase is defined as how far along its cycle a given waveform is. The measurement of phase is given in degrees, with 360 degrees being one complete cycle. "
+    },
+    {
+      "question": "When is phase an issue? ",
+      "answer": "When you combine multiple waves. "
     }
   ]
 }
