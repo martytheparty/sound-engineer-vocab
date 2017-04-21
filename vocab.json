@@ -64,6 +64,10 @@
     {
       "question": "Fundamental Frequency? ",
       "answer": "The fundamental frequency, often referred to simply as the fundamental, is defined as the lowest frequency of a periodic waveform.  "
+    },
+    {
+      "question": "Harmonic Content? ",
+      "answer": "The components remaining after the fundamental frequency has been removed from a complex wave. "
     }
   ]
 }
