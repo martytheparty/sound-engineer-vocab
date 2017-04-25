@@ -72,6 +72,10 @@
     {
       "question": "Envelope? ",
       "answer": "The shape of the sound over time.  Made up of the attack, sustain, and decay of a sound. "
+    },
+    {
+      "question": "Attack? ",
+      "answer": "In audio terms, the beginning of a sound. "
     }
   ]
 }
