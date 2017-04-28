@@ -76,6 +76,10 @@
     {
       "question": "Attack? ",
       "answer": "In audio terms, the beginning of a sound. "
+    },
+    {
+      "question": "Attack Time? ",
+      "answer": "how long it takes for the volume of the sound to go from silence to maximum level. "
     }
   ]
 }
