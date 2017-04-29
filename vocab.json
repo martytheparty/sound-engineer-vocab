@@ -79,7 +79,11 @@
     },
     {
       "question": "Attack Time? ",
-      "answer": "how long it takes for the volume of the sound to go from silence to maximum level. "
+      "answer": "How long it takes for the volume of the sound to go from silence to maximum level. "
+    },
+    {
+      "question": "Sustain ",
+      "answer": "The period of time during which the sound remains before it becomes inaudible, or silent. "
     }
   ]
 }
