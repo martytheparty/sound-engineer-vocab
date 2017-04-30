@@ -84,6 +84,10 @@
     {
       "question": "Sustain ",
       "answer": "The period of time during which the sound remains before it becomes inaudible, or silent. "
+    },
+    {
+      "question": "Decay ",
+      "answer": "Decay is the time that it takes for a note to die away once the musician has stopped producing the sound. "
     }
   ]
 }
