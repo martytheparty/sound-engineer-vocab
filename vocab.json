@@ -92,6 +92,10 @@
     {
       "question": "Release? ",
       "answer": "The rate at which the volume drops to zero as the sound stops playing. "
+    },
+    {
+      "question": "Loudness? ",
+      "answer": "The characteristic of a sound that is primarily a psycho-physiological correlate of physical strength (amplitude). "
     }
   ]
 }
