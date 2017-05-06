@@ -96,6 +96,10 @@
     {
       "question": "Loudness? ",
       "answer": "The characteristic of a sound that is primarily a psycho-physiological correlate of physical strength (amplitude). "
+    },
+    {
+      "question": "Range Of Amplitude (Loudness) The Ear Can Hear? ",
+      "answer": "1-10^13 "
     }
   ]
 }
