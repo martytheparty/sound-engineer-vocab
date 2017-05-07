@@ -100,6 +100,10 @@
     {
       "question": "Range Of Amplitude (Loudness) The Ear Can Hear? ",
       "answer": "1-10^13 "
+    },
+    {
+      "question": "What is the unit used to describe the loudness of sound? ",
+      "answer": "Decibel "
     }
   ]
 }
