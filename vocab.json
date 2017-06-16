@@ -1,0 +1,109 @@
+{
+  "description": "Sound Engineering",
+  "questions": [
+    {
+      "question": "What Is Sound?",
+      "answer": "How we sense changes in Atmospheric Pressure."
+    },
+    {
+      "question": "What do we hear when we hear a sting vibrate?",
+      "answer": "The air molecules moving around - back and forth."
+    },
+    {
+      "question": "What is Compression?",
+      "answer": "A peak of high pressure.  When the string of a musical instrument pushes air molecules to create sound. "
+    },
+    {
+      "question": "What is Rarefaction?",
+      "answer": "A trough of low pressure.  When the string of a musical instrument pulls air molecules to create sound. "
+    },
+    {
+      "question": "What is created when there is a repetition of compression and rarefaction?",
+      "answer": "A longitudinal wave. "
+    },
+    {
+      "question": "How Can We Visualize Sound Waves?",
+      "answer": "Plot change in air pressure against time. "
+    },
+    {
+      "question": "Name two key aspects of sound?",
+      "answer": "Amplitude and Frequency "
+    },
+    {
+      "question": "What is Amplitude?",
+      "answer": "The strength of the wave. "
+    },
+    {
+      "question": "What Is RMS?",
+      "answer": "Root Mean Square - helps determine the average amplitude of a single. "
+    },
+    {
+      "question": "What Is Frequency?",
+      "answer": "How many cycles of peaks and troughs in a second. "
+    },
+    {
+      "question": "How (unit of measure) is frequency measured?",
+      "answer": "RMS "
+    },
+    {
+      "question": "What is Pitch?",
+      "answer": "How we perceive a change in frequency. "
+    },
+    {
+      "question": "Pitch rises as what rises? ",
+      "answer": "frequency "
+    },
+    {
+      "question": "What does phase mean? ",
+      "answer": "Audio waveforms are cyclical; that is, they proceed through regular cycles or repetitions. Phase is defined as how far along its cycle a given waveform is. The measurement of phase is given in degrees, with 360 degrees being one complete cycle. "
+    },
+    {
+      "question": "When is phase an issue? ",
+      "answer": "When you combine multiple waves. "
+    },
+    {
+      "question": "Fundamental Frequency? ",
+      "answer": "The fundamental frequency, often referred to simply as the fundamental, is defined as the lowest frequency of a periodic waveform.  "
+    },
+    {
+      "question": "Harmonic Content? ",
+      "answer": "The components remaining after the fundamental frequency has been removed from a complex wave. "
+    },
+    {
+      "question": "Envelope? ",
+      "answer": "The shape of the sound over time.  Made up of the attack, sustain, and decay of a sound. "
+    },
+    {
+      "question": "Attack? ",
+      "answer": "In audio terms, the beginning of a sound. "
+    },
+    {
+      "question": "Attack Time? ",
+      "answer": "How long it takes for the volume of the sound to go from silence to maximum level. "
+    },
+    {
+      "question": "Sustain ",
+      "answer": "The period of time during which the sound remains before it becomes inaudible, or silent. "
+    },
+    {
+      "question": "Decay ",
+      "answer": "Decay is the time that it takes for a note to die away once the musician has stopped producing the sound. "
+    },
+    {
+      "question": "Release? ",
+      "answer": "The rate at which the volume drops to zero as the sound stops playing. "
+    },
+    {
+      "question": "Loudness? ",
+      "answer": "The characteristic of a sound that is primarily a psycho-physiological correlate of physical strength (amplitude). "
+    },
+    {
+      "question": "Range Of Amplitude (Loudness) The Ear Can Hear? ",
+      "answer": "1-10^13 "
+    },
+    {
+      "question": "What is the unit used to describe the loudness of sound? ",
+      "answer": "Decibel "
+    }
+  ]
+}
