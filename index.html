@@ -2,9 +2,12 @@
   <head>
     <title>Sound Engineer Vocab</title>
   </head>
-  <body>
-    <h1>Sound Engineer Vocab</h1>
-    <h3>Questions and Answers</h3>
-    <div id='qa'></div>
+  <body ng-controller='MainCtrl'>
+    <h1>{{description}} Vocabulary</h1>
+
+    <div ng-controller='QaCtrl'>
+      <h3>Questions & Answers</h3>
+      <qa id='q-and-a'bdescription='{{description}}' questions='questions'>Loading Q&A</qa>
+    </div>
   </body>
 </html>
