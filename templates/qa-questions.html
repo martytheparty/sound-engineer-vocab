@@ -1,0 +1,21 @@
+<h3>
+  <i ng-click="toggle()" ng-show="open" class="fa fa-folder-open-o"> close</i>
+  <i ng-click="toggle()" ng-hide="open" class="fa fa-folder-o"> open</i>
+  Questions & Answers
+</h3>
+
+<div ng-show="open">
+  <div>
+  {{description}}
+
+  <div class="question-answer" ng-repeat='question in questions track by $index'>
+    <div class='question'>
+      {{question.question}}
+    </div>
+    <div class='answer'>
+      {{question.answer}}
+    </div>
+  </div>
+
+  </div>
+</div>

@@ -11,15 +11,35 @@ angular.module('vocab').controller('MainCtrl', function($scope){
 angular.module('vocab').controller('QaCtrl', function($scope){
   $scope.description = require('../JSON/vocab.json').description;
   $scope.questions = require('../JSON/vocab.json').questions;
+  $scope.open = false;
+  $scope.toggle = function() {
+    $scope.open = !$scope.open;
+  }
 });
 
-angular.module('vocab').directive('qa',function(){
+angular.module('vocab').directive('qTitle',function(){
   return {
-    templateUrl: 'templates/qa.html',
+    templateUrl: 'templates/title.html',
+    restrict: 'E',
+    scope: {
+      description: '@'
+    }
+  }
+});
+
+angular.module('vocab').directive('qaQuestions',function(){
+  return {
+    templateUrl: 'templates/qa-questions.html',
     restrict: 'E',
     scope: {
       description: '@',
       questions: '='
+    },
+    controller: function($scope){
+      $scope.open = false;
+      $scope.toggle = function(){
+        $scope.open = !$scope.open;
+      }
     }
   }
 });

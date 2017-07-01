@@ -1,0 +1,11 @@
+.fa {
+  color:#0000FF;
+}
+
+qa-questions .question-answer {
+  margin:20px;
+}
+
+qa-questions .question {
+  font-weight: bold;
+}

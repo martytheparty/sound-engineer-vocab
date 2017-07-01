@@ -1,13 +1,21 @@
 <html>
   <head>
     <title>Sound Engineer Vocab</title>
+    <link rel="stylesheet" href="/node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/style.css">
   </head>
   <body ng-controller='MainCtrl'>
-    <h1>{{description}} Vocabulary</h1>
+    <q-title
+      description='{{description}}'
+      >
+      Loading...
+    </q-title>
 
     <div ng-controller='QaCtrl'>
-      <h3>Questions & Answers</h3>
-      <qa id='q-and-a'bdescription='{{description}}' questions='questions'>Loading Q&A</qa>
+        <qa-questions
+          description='{{description}}',
+          questions='questions'
+        ></qa-questions>
     </div>
   </body>
 </html>
