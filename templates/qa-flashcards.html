@@ -1,14 +1,19 @@
 <h3>
   <i ng-click="toggle()" ng-show="open" class="fa fa-folder-open-o folder"> close</i>
   <i ng-click="toggle()" ng-hide="open" class="fa fa-folder-o folder"> open</i>
-  Questions & Answers
+  Flash Cards
 </h3>
 
 <div ng-show="open">
   <div>
   {{description}}
 
-  <div class="question-answer" ng-repeat='question in questions track by $index'>
+  <div class="question-answer">
+    <div>
+      <i ng-click='previous()' class="fa fa-arrow-left question-nav" aria-hidden="true"></i>
+      {{currentIndex + 1}} of {{questions.length}}
+      <i ng-click='next()' class="fa fa-arrow-right question-nav" aria-hidden="true"></i>
+    </div>
     <div class='question'>
       {{question.question}}
     </div>

@@ -5,17 +5,11 @@
     <link rel="stylesheet" href="/style.css">
   </head>
   <body ng-controller='MainCtrl'>
-    <q-title
-      description='{{description}}'
-      >
-      Loading...
-    </q-title>
+    <q-title description='{{description}}'>Loading...</q-title>
 
     <div ng-controller='QaCtrl'>
-        <qa-questions
-          description='{{description}}',
-          questions='questions'
-        ></qa-questions>
+      <qa-questions description='{{description}}', questions='questions'></qa-questions>
+      <qa-flashcards description='{{description}}', questions='questions'></qa-flashcards>
     </div>
   </body>
 </html>

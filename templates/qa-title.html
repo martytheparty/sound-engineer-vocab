@@ -8,11 +8,11 @@
   <div>
   {{description}}
 
-  <div class="question-answer" ng-repeat='question in questions track by $index'>
-    <div class='question'>
+  <div ng-repeat='question in questions track by $index'>
+    <div>
       {{question.question}}
     </div>
-    <div class='answer'>
+    <div>
       {{question.answer}}
     </div>
   </div>

@@ -44,6 +44,18 @@ angular.module('vocab').directive('qaQuestions',function(){
   }
 });
 
+angular.module('vocab').directive('qaFlashcards',function(){
+  return {
+    template: require('raw-loader!../templates/qa-flashcards.html'),
+    restrict: 'E',
+    scope: {
+      description: '@',
+      questions: '='
+    },
+    controller: require('../controllers/flashcards.js').ctrl
+  }
+});
+
 angular.element(function() {
   angular.bootstrap(document, ['vocab']);
 });

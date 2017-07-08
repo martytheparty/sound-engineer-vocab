@@ -2,10 +2,22 @@
   color:#0000FF;
 }
 
+.fa.folder {
+  cursor: pointer;
+}
+
+.fa.question-nav {
+  cursor: pointer;
+}
+
 qa-questions .question-answer {
   margin:20px;
 }
 
 qa-questions .question {
+  font-weight: bold;
+}
+
+qa-flashcards .question {
   font-weight: bold;
 }
