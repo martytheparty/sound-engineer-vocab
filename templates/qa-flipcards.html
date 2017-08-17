@@ -17,7 +17,10 @@
     <div class='question'>
       {{question.question}}
     </div>
-    <div class='answer'>
+    <div ng-hide='questionOpen' class='show-button'>
+      <button ng-click='showAnswer()'>Show Answer</button>
+    </div>
+    <div ng-show='questionOpen' class='answer'>
       {{question.answer}}
     </div>
   </div>

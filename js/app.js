@@ -64,7 +64,7 @@ angular.module('vocab').directive('qaFlipcards',function(){
       description: '@',
       questions: '='
     },
-    controller: require('../controllers/flashcards.js').ctrl
+    controller: require('../controllers/flipcards.js').ctrl
   }
 });
 
