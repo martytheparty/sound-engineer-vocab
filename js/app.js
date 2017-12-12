@@ -68,6 +68,18 @@ angular.module('vocab').directive('qaFlipcards',function(){
   }
 });
 
+angular.module('vocab').directive('qaMultiThree',function(){
+  return {
+    template: require('raw-loader!../templates/qa-multi-three.html'),
+    restrict: 'E',
+    scope: {
+      description: '@',
+      questions: '='
+    },
+    controller: require('../controllers/multithree.js').ctrl
+  }
+});
+
 angular.element(function() {
   angular.bootstrap(document, ['vocab']);
 });

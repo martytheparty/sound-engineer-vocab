@@ -1,0 +1,38 @@
+<h3>
+  <i ng-click="toggle()" ng-show="open" class="fa fa-folder-open-o folder"> close</i>
+  <i ng-click="toggle()" ng-hide="open" class="fa fa-folder-o folder"> open</i>
+  Choose From One Of Three
+</h3>
+
+<div ng-show="open">
+  <div>
+  {{description}}
+
+  <div class="question-answer">
+    <div class="navigation">
+      <i ng-click='previous()' class="fa fa-arrow-left question-nav" aria-hidden="true"></i>
+      {{currentIndex + 1}} of {{questions.length}}
+      <i ng-click='next()' class="fa fa-arrow-right question-nav" aria-hidden="true"></i>
+    </div>
+    <div class='question'>
+      {{question.question}}
+    </div>
+
+    <div class='choices'>
+      <div class='choice1 {{class1}}'>
+        <input ng-model="threechoice" ng-value=1 name='answer' type='radio' ng-click="radioClick(1)">
+        {{question1.answer}}
+      </div>
+      <div class='choice2 {{class2}}' ng-click="radioClick(2)">
+        <input ng-model="threechoice" ng-value=2 name='answer' type='radio'>
+        {{question2.answer}}
+      </div>
+      <div class='choice3 {{class3}}' ng-click="radioClick(3)">
+        <input ng-model="threechoice" ng-value=3 name='answer' type='radio'>
+        {{question3.answer}}
+      </div>
+    </div>
+  </div>
+
+  </div>
+</div>
